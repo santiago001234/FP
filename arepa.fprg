@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area del circulo"/>
+        <attribute name="authors" value="edwar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-08 07:25:20 p.&#8239;m."/>
+        <attribute name="created" value="ZWR3YXI7TEFQVE9QLUM3NEg0VUFNOzIwMjYtMDQtMDg7MDY6NTk6MjkgcC7igK9tLjsxMTI1Nw=="/>
+        <attribute name="edited" value="ZWR3YXI7TEFQVE9QLUM3NEg0VUFNOzIwMjYtMDQtMDg7MDc6MjU6MjAgcC7igK9tLjsxOzExMzUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Area, P, Radio" type="Real" array="False" size=""/>
+            <assign variable="P" expression="3.14"/>
+            <input variable="Radio"/>
+            <assign variable="Area" expression="P*Radio*Radio"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
