@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Edad de un salon en para"/>
+        <attribute name="authors" value="edwar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-05 12:50:30 p.&#8239;m."/>
+        <attribute name="created" value="ZWR3YXI7TEFQVE9QLUM3NEg0VUFNOzIwMjYtMDUtMDU7MTI6MjY6MjYgcC7igK9tLjsxMTI0Mw=="/>
+        <attribute name="edited" value="ZWR3YXI7TEFQVE9QLUM3NEg0VUFNOzIwMjYtMDUtMDU7MTI6NTA6MzAgcC7igK9tLjsxOzExMzQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, I" type="Integer" array="False" size=""/>
+            <declare name="Edad, Suma, Promedio" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite la cantidad de alumnos&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="Suma" expression="0"/>
+            <for variable="I" start="1" end="N" direction="inc" step="1">
+                <output expression="&quot;Digite la edad del alumno&quot;" newline="True"/>
+                <input variable="Edad"/>
+                <assign variable="Suma" expression="Suma + Edad"/>
+            </for>
+            <assign variable="Promedio" expression="Suma / N"/>
+            <output expression="Suma" newline="True"/>
+            <output expression="Promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
